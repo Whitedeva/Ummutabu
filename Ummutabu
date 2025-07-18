@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ummu Tabu</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+    }
+    header {
+      padding: 50px 20px 20px;
+      background: linear-gradient(to right, #ff00cc, #3333ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 3em;
+      font-weight: bold;
+      text-shadow: 0 0 15px #ff00cc;
+    }
+    .intro {
+      font-size: 1.3em;
+      margin: 20px auto;
+      max-width: 600px;
+      padding: 0 20px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      padding: 20px;
+    }
+    .gallery img {
+      width: 300px;
+      max-width: 90vw;
+      border: 3px solid #ff00cc;
+      border-radius: 15px;
+      box-shadow: 0 0 20px #ff00cc;
+    }
+    .insta {
+      margin: 30px;
+    }
+    .insta a {
+      color: #fff;
+      background: #ff00cc;
+      padding: 10px 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 1.1em;
+      transition: 0.3s ease;
+    }
+    .insta a:hover {
+      background: #e600b3;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 1em;
+      color: #aaa;
+      padding-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>Ummu Tabu</header>
+
+  <div class="intro">
+    "Jab se tum zindagi mein aayi ho, har din ek nayi kahaani ban gaya hai.<br>
+    Tumhari muskurahat, meri duniya ka noor hai. <br>
+    Tabu — sirf naam nahi, mere dil ki dhadkan ho tum."
+  </div>
+
+  <div class="gallery">
+    <img src="image1.jpg" alt="Photo 1">
+    <img src="image2.jpg" alt="Photo 2">
+    <img src="image3.jpg" alt="Photo 3">
+    <img src="image4.jpg" alt="Photo 4">
+  </div>
+
+  <div class="insta">
+    <a href="https://www.instagram.com/mohammadumairjavidkhan/profilecard/?igsh=cm1zOTRlb3IzNGR4" target="_blank">Follow on Instagram</a>
+  </div>
+
+  <footer>
+    "Ye chhoti si website tumhare liye, <strong>Tabu</strong>... Mohabbat har lafz mein basi ho."
+  </footer>
+
+</body>
+</html>
